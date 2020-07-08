@@ -1,0 +1,145 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  color: #FFFFFF;
+}
+
+.logo {
+  line-height: 60px;
+  position: absolute;
+  float: left;
+  margin: 16px 46px;
+  margin-top: 0px;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  font-weight: 200;
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .logo {
+    position: absolute;
+    top: 0;
+    margin-top: 0px;
+  }
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+  nav.black ul {
+    background: #000;
+  }
+  .showing {
+    max-height: 34em;
+  }
+  nav ul li {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+
+.container-fluid {
+  min-height: 768px;
+  background-image: url("../images/Banner.png");
+  background-size: cover;
+}
+
+.product-name {
+  margin-top: 200px;
+}
+
+.product-name span {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.product-name p {
+  color: #808080;
+}
+
+.product-img {
+  margin-top: 150px;
+}
+
+.btn-start {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid white;
+  width: 130px;
+}
+
+.btn-start:hover {
+  color: #808080;
+  border: 2px solid #808080;
+}
+
+.price span {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.spec span {
+  font-weight: 200;
+}
+
+.social a {
+  color: #FFFFFF;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
